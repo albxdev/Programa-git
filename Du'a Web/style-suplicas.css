@@ -1,0 +1,131 @@
+body {
+    background: #f7f8fa; 
+    font-family: 'Tajawal', sans-serif; 
+    color: #333; /* Default text color with good contrast */
+}
+
+nav.navigation {
+    background-color: #38a3a5; 
+    padding: 25px 20px; 
+    text-align: center;
+}
+
+nav.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navigation li {
+    display: inline-block;
+    margin: 0 30px; 
+}
+
+nav.navigation li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav.navigation li a:hover {
+    color: #f9f2c7;
+}
+
+.supplications-section {
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+h1 {
+    color: #38a3a5; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.supplications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.supplication-box {
+    width: 300px; 
+    background-color: #e8f0f1; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    overflow: hidden; 
+}
+
+.supplication-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.supplication-box h2 {
+    color: #38a3a5; 
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 15px;
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 15px;
+}
+
+.supplication-box p {
+    font-size: 16px;
+    line-height: 1.5; 
+    padding: 15px;
+    margin-bottom: 0;
+    color: #333; 
+    word-break: normal; 
+    text-overflow: ellipsis; 
+}
+
+.supplication-box p:lang(ar) {
+    text-align: right;
+    direction: rtl; 
+}
+
+.supplication-box p:lang(es) {
+    font-style: italic; 
+    margin-top: 10px;
+}
+
+.show-transliteration {
+  
+  width: 200px; 
+  height: 40px; 
+
+  border-radius: 10px; 
+
+  background-color: #38a3a5; 
+  color: #fff; 
+
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  font-weight: 600; 
+
+  border: none;
+
+  
+  transition: background-color 0.3s ease; 
+
+  &:hover {
+    background-color: #28a745; 
+  }
+
+  /* Button Padding and Margin */
+  padding: 10px 10px; 
+  margin: 20px 40px; 
+
+  
+  cursor: pointer; 
+  outline: none; 
+}
+
